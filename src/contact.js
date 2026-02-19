@@ -9,7 +9,6 @@ import {
   Globe, 
   MessageSquare,
   Linkedin,
-  Clock
 } from 'lucide-react';
 
 const Contact = () => {
