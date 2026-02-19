@@ -43,7 +43,6 @@ import {
   Cpu, 
   Heart,
   Network,
-  Lightbulb
 } from 'lucide-react';
 
 const Home = () => {
