@@ -113,10 +113,10 @@ const Contact = () => {
             {/* Social Links */}
             <motion.div variants={itemVariants} className="flex items-center gap-4 pt-4">
               <p className="text-sm font-bold text-slate-400 uppercase tracking-widest mr-2">Follow our journey</p>
-              <a href="#" className="w-10 h-10 rounded-full bg-slate-100 flex items-center justify-center text-slate-600 hover:bg-[#f8a21c] hover:text-white transition-all">
+              <a href="/" className="w-10 h-10 rounded-full bg-slate-100 flex items-center justify-center text-slate-600 hover:bg-[#f8a21c] hover:text-white transition-all">
                 <Linkedin size={18} />
               </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-slate-100 flex items-center justify-center text-slate-600 hover:bg-[#f8a21c] hover:text-white transition-all">
+              <a href="/" className="w-10 h-10 rounded-full bg-slate-100 flex items-center justify-center text-slate-600 hover:bg-[#f8a21c] hover:text-white transition-all">
                 <Globe size={18} />
               </a>
             </motion.div>

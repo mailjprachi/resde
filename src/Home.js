@@ -110,7 +110,7 @@ const Home = () => {
       >
         <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
           {/* Updated Logo */}
-          <a href="#">
+          <a href="/">
             <BrandLogo />
           </a>
           
@@ -736,7 +736,7 @@ const Home = () => {
               Restoring the heartbeat of healthcare through unified intelligence.
             </p>
             <div className="flex gap-4">
-              <a href="#" className="hover:text-[#f8a21c] transition-colors"><Linkedin size={20} /></a>
+              <a href="/" className="hover:text-[#f8a21c] transition-colors"><Linkedin size={20} /></a>
               <a href="mailto:hello@resde.ai" className="hover:text-[#f8a21c] transition-colors"><Mail size={20} /></a>
             </div>
           </div>
@@ -745,23 +745,23 @@ const Home = () => {
             <h4 className="text-white font-bold mb-4">Platform</h4>
             <ul className="space-y-2 text-sm">
               <li><a href="#solution" className="hover:text-[#f8a21c] transition-colors">Dr. Sneha AI</a></li>
-              <li><a href="#" className="hover:text-[#f8a21c] transition-colors">Provider Solutions</a></li>
-              <li><a href="#" className="hover:text-[#f8a21c] transition-colors">Patient App</a></li>
-              <li><a href="#" className="hover:text-[#f8a21c] transition-colors">Security</a></li>
+              <li><a href="/" className="hover:text-[#f8a21c] transition-colors">Provider Solutions</a></li>
+              <li><a href="/" className="hover:text-[#f8a21c] transition-colors">Patient App</a></li>
+              <li><a href="/" className="hover:text-[#f8a21c] transition-colors">Security</a></li>
             </ul>
           </div>
 
           <div>
             <h4 className="text-white font-bold mb-4">Company</h4>
             <ul className="space-y-2 text-sm">
-              <li><a href="#" className="hover:text-[#f8a21c] transition-colors">Our Story</a></li>
-              <li><a href="#" className="hover:text-[#f8a21c] transition-colors">Careers</a></li>
+              <li><a href="/" className="hover:text-[#f8a21c] transition-colors">Our Story</a></li>
+              <li><a href="/" className="hover:text-[#f8a21c] transition-colors">Careers</a></li>
             <li>
-            <Link to="/contact" className="hover:text-[#f8a21c] transition-colors">
-                Contact
-            </Link>
+                <Link to="/contact" className="hover:text-[#f8a21c] transition-colors">
+                    Contact
+                </Link>
             </li>
-              <li><a href="#" className="hover:text-[#f8a21c] transition-colors">Privacy Policy</a></li>
+              <li><a href="/" className="hover:text-[#f8a21c] transition-colors">Privacy Policy</a></li>
             </ul>
           </div>
         </div>
