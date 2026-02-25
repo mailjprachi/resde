@@ -164,7 +164,7 @@ const Home = () => {
               in Healthcare.
             </motion.h1>
             <motion.p variants={fadeInUp} className="text-xl text-slate-600 leading-relaxed max-w-lg">
-              Empower your practice with <strong>Dr. Sneha</strong>—the intelligent ecosystem that transforms fragmented data into clarity, giving you effortless command of the care journey.
+              Empower your practice with <strong>Dr. Sneha</strong>-the intelligent ecosystem that transforms fragmented data into clarity, giving you effortless command of the care journey.
             </motion.p>
             <motion.div variants={fadeInUp} className="flex flex-col sm:flex-row gap-4 pt-4">
               <motion.a 
