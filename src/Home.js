@@ -260,24 +260,23 @@ const Home = () => {
             {/* The "Chaos" */}
             <motion.div 
               initial={{ opacity: 0, x: -50 }}
-              whileInView={{ opacity: 0.6, x: 0 }}
-              whileHover={{ opacity: 1 }}
+              whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: false, amount: 0.3 }}
-              transition={{ duration: 0.6 }}
-              className="bg-white p-8 rounded-3xl border border-slate-200 shadow-sm opacity-60 grayscale hover:grayscale-0 transition-all duration-500"
+              transition={{ duration: 0.6, delay: 0.2}}
+              className="bg-white p-8 rounded-3xl border border-slate-200 shadow-sm opacity-60 grayscale transform md:scale-105 relative z-10"
             >
-              <div className="flex items-center gap-2 mb-4 text-red-500 font-semibold">
+              <div className="flex items-center gap-2 mb-4 text-slate-500 font-semibold">
                 <CircleX size={20} /> Current Reality
               </div>
               <div className="space-y-4">
               <h3 className="text-2xl font-bold"> Disconnected Records</h3>
-                <div className="h-32 text-slate-400 text-sm">
+                <p className="text-slate-400 text-sm leading-relaxed">
                   Without a central system, patient records are trapped in isolated documents, forcing clinicians to spend hours on manual entry. This administrative burden steals focus from the patient and prevents clinical efficiency.
-                </div>
+                </p>
                 <div className="flex gap-2">
-                  <span className="bg-red-50 text-red-600 text-xs px-2 py-1 rounded">Manual Entry</span>
-                  <span className="bg-red-50 text-red-600 text-xs px-2 py-1 rounded">Administrative Noise</span>
-                  <span className="bg-red-50 text-red-600 text-xs px-2 py-1 rounded">Lost Time</span>
+                  <span className="bg-gray-100 text-slate-600 text-xs px-2 py-1 rounded">Manual Entry</span>
+                  <span className="bg-gray-100 text-slate-600 text-xs px-2 py-1 rounded">Administrative Noise</span>
+                  <span className="bg-gray-100 text-slate-600 text-xs px-2 py-1 rounded">Lost Time</span>
                 </div>
               </div>
             </motion.div>
